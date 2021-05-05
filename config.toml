@@ -1,5 +1,5 @@
 baseURL = "https://liu-zhi-fei.github.io/"
-languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
 title = "打工人."
 theme = "hello-friend"
 paginate = 5
@@ -27,37 +27,38 @@ showReadingTime = false
 # rssFullText = true
 
 [languages]
-[languages.zh]
-    title = "打工人."
-    subtitle = "为了更美好的明天!"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-# leave empty to disable, enter display text to enable
-# lastModDisplay = ""
+    [languages.zh-cn]
+        languageCode = "zh-cn"
+        title = "打工人."
+        subtitle = "为了更美好的明天!"
+        keywords = ""
+        copyright = ""
+        menuMore = "Show more"
+        writtenBy = "Written by"
+        readMore = "Read more"
+        readOtherPosts = "Read other posts"
+        newerPosts = "Newer posts"
+        olderPosts = "Older posts"
+        minuteReadingTime = "min read"
+        dateFormatSingle = "2006-01-02"
+        dateFormatList = "2006-01-02"
+    # leave empty to disable, enter display text to enable
+    # lastModDisplay = ""
 
-[languages.en.params.logo]
-logoText = "hello frizhd"
-logoHomeLink = "/"
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
+    [languages.zh-cn.params.logo]
+        logoText = "hello frizhd"
+        logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-[languages.zh.menu]
-    [[languages.zh.menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about"
-    [[languages.zh.menu.main]]
-    identifier = "showcase"
-    name = "Showcase"
-    url = "/showcase"
+    [languages.zh-cn.menu]
+        [[languages.zh-cn.menu.main]]
+            identifier = "about"
+            name = "About"
+            url = "/about"
+        [[languages.zh-cn.menu.main]]
+            identifier = "showcase"
+            name = "Showcase"
+            url = "/showcase"
